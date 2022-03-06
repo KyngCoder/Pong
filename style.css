@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.intro{
+    position: absolute;
+    top: calc(50vh - 15rem);
+    font-size:3rem;
+    background:linear-gradient(to left,rgb(41, 22, 218),rgb(211, 20, 67));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    display: inline; 
+    user-select:none;
+}
+ #canvas{
+    width:300px;
+    height:300px;
+    border: 5px solid rgb(87, 84, 84);
+    background:black;
+    
+} 
+
+.score{
+    display:flex;
+    position:absolute;
+    top:calc(50vh - 8.5rem);
+    font-size:1.3rem;
+    color:white;
+    user-select:none;
+}
+#player-one{
+    margin:0 2rem;
+    
+}
+#player-two{
+    margin:0 2rem;
+    
+}
+
+.output{
+    background:white;
+    position:absolute;
+    height:50px;
+    width:260px;
+    text-align:center;
+    line-height:300%;
+    display:none;
+    user-select:none;
+}
+
+.top{
+
+    position:absolute;
+    bottom:45px;
+    left:20px;
+    margin-bottom:10px;
+    
+  
+}
+.bottom{
+    
+   
+position:absolute;
+    bottom:10px;
+    left:20px;
+}
+
+.top1{
+
+    position:absolute;
+    bottom:45px;
+    right:20px;
+    margin-bottom:10px;
+}
+.bottom1{
+   
+   position:absolute;
+    bottom:10px;
+    right:20px;
+}
